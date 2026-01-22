@@ -9,7 +9,7 @@ labels:
   - Software Engineering
   - Learning
 ---
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/download.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/download.jpg">
 
 While in grade school, I never really understood or enjoyed the aspect of learning. I only accomplished what was needed to pass and moved on to the next course. It wasn't until years after I graduated high school that I took a strong interest in learing. Throughout my studies in computer and electrical engineering, I was able to learn about everyday devices that we take for granted. 
 
