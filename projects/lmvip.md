@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/tower.jpg
+image: img/radio.png
 title: "Liquid Metal VIP"
 date: 2024
 published: true
