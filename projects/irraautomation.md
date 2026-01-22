@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/water.jpg
+image: img/irraz.png
 title: "Irrigation Automation"
 date: 2024
 published: true
