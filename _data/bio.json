@@ -6,13 +6,11 @@
     "email": "ajw9@hawaii.edu",
     "phone": "(443) 253-1909",
     "website": "https://wojoa999.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying in Computer Engineering for a B.S. in Computer and Electrical Engineering at the University of Hawaii at Moana. My expected graduation is Fall 2026.",
+    "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mmaluhia", "url": "http://github.com/wojoa999" },
+      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/andrew-wdzieczkowski" }
     ]
   },
   "interests": [
@@ -25,19 +23,19 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub", "Ignition Perspective" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer and Electrical Engineering (expected Fall 2026)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2020-08-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -45,10 +43,10 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Bayer",
+      "position": "Seed Technician",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-11-08",
       "endDate": "Present",
       "summary": "Head of online presence for Ka Leo",
       "highlights": [
