@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/weather.jpg
+image: img/rain.jpg
 title: "Smart Campus Energy Lab"
 date: 2025
 published: true
