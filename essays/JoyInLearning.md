@@ -10,10 +10,8 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+While in grade school, I never really understood or enjoyed the aspect of learning. I only accomplished what was needed to pass and moved on to the next course. It wasn't until years after I graduated high school that I took a strong interest in learing. Throughout my studies in computer and electrical engineering, I was able to learn about everyday devices that we take for granted. 
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+My studies have now brought me to the subject of software engineering. During my time this semester, I want to hone my skills in programming. I consider myself a strong math and engineering student, but where I lack is my programming skills. I wish to take all of the bits of programming I have learned and finnally piece the parts together to solve problems. A key piece I would love to learn is having the vision to not only solve a problem, but solve it in a way that can be applied to multiple problems. 
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
 
-I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
