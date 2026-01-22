@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/weather.jpg
 title: "Smart Campus Energy Lab"
 date: 2025
 published: true
