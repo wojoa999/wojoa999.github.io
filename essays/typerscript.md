@@ -12,7 +12,6 @@ labels:
 <img width="100px" class="rounded float-start pe-4" src="../img/download.jpg">
 
 ```cpp
-byte ADCRead(byte ch)
 class Store{
     inventory: Inventory;
 
