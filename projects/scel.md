@@ -21,3 +21,5 @@ The University of Hawaii wants to achieve net-zero energy by the year 2030. In o
 For this project, I was assigned to the Dashboard team whose responsibility was to use data visualization tools to design a dashboard that displays weather data. The two primary tools used included Grafana and Tableau. Grafana was used as a live data tracking dashboard that connects into the gateway. Tableau was designed to create a historical dashbaord that tracks the previous five years. This would allow to track the weather patterns to see if the weather was consistent. 
 
 I will continue workinng on this project thos semester an will provide and provide information on new progress that has been made. As of now, we will continue to improve the current dashboards on Grafana and Tableau.
+
+Test
