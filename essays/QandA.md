@@ -9,7 +9,7 @@ labels:
   - Questions
   - Answers
 ---
-<img width="300px" class="rounded float-start pe-4" src="../img/question.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/question.jpg">
 
 ## Introuction
 When using a free online question and answer service, such as Stack Overflow, it is important to understand the quality of the questions you are asking. There is such a way to ask questions that look interesting and appealing to draw in the answers. This style of questioning is known as asking smart questions. On the other hand, you could be asking on-so-smart questions without even realizing. In this discussion, we will explore the qualities of the smart questions and those not-so-smart questions, which is key for receiving the answer you are looking for.   
