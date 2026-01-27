@@ -32,6 +32,8 @@ labels:
 
 
 ```
+Q: How many way to implement Audio Streaming
+
 I'm progressing web service project that just for portfolio, not for release service. and the project is "Music platform" like spotify, apple music and soundcloud(soundcoud is most similar service that on my mind)
 
 So I have to implements streaming function. But now I know just only way to implement streaming function is HLS streaming
