@@ -23,21 +23,18 @@ I am maintaining an open-source macOS/iOS app that is also published on the App 
 
 Currently, my configuration causes immediate build failures for anyone who clones the repo:
 
-Hardcoded Team ID: In project.pbxproj, DEVELOPMENT_TEAM is set to my personal Team ID.
-
-Entitlements: The app requires a Keychain Access Group to store user credentials. This causes a provisioning profile mismatch for contributors because the App ID prefix doesn't match their local environment.
+    Hardcoded Team ID: In project.pbxproj, DEVELOPMENT_TEAM is set to my personal Team ID.
+    Entitlements: The app requires a Keychain Access Group to store user credentials. This causes a             provisioning profile mismatch for contributors because the App ID prefix doesn't match their local          environment.
 
 The Problem: When a new contributor clones the project and tries to build, they receive the error:
 
-"Automatic signing failed: [App Name] requires a development team. Select a development team in the Signing & Capabilities editor."
+    "Automatic signing failed: [App Name] requires a development team. Select a development team in the         Signing & Capabilities editor."
 
 If they select their own team, it modifies the project.pbxproj file, which they then have to avoid committing. If they don't, they have to manually strip out the Entitlements just to run the app on a simulator or device.
 
 What I've considered:
-
-Adding *.pbxproj to .gitignore (Not feasible as project structure changes).
-
-Using an .xcconfig file for the DEVELOPMENT_TEAM ID.
+    Adding *.pbxproj to .gitignore (Not feasible as project structure changes).
+    Using an .xcconfig file for the DEVELOPMENT_TEAM ID.
 
 My Question: What is the standard workflow for open-source projects to allow contributors to build and run the app locally without manually modifying the project's signing configuration or stripping out necessary Entitlements? Is there a way to "gracefully degrade" signing requirements for non-maintainers?
 ```
