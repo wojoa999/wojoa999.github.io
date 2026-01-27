@@ -22,7 +22,6 @@ Q: How to manage Xcode signing and Entitlements for Open Source projects with co
 I am maintaining an open-source macOS/iOS app that is also published on the App Store. I am struggling to find a "best practice" for handling code signing that doesn't block external contributors.
 
 Currently, my configuration causes immediate build failures for anyone who clones the repo:
-
     Hardcoded Team ID: In project.pbxproj, DEVELOPMENT_TEAM is set to my personal Team ID.
     Entitlements: The app requires a Keychain Access Group to store user credentials. This causes a             provisioning profile mismatch for contributors because the App ID prefix doesn't match their local          environment.
 
