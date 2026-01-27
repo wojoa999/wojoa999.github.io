@@ -57,6 +57,7 @@ Then I want to know how many way to implement streaming function. Can you knowin
 
 I have an environment : EC2 (I can use 2 instance), S3, Docker, Spring Boot, Java, RDS(MySQL)
 ```
+In the example from Stack Overflow above, this is a great example of a no-so-smart question. The question was designed with very little thought and has extremely poor grammar. This question is a great example of what not to ask. You can tell the questioner has not conducted the proper research and provides insightful information, they are just looking for the answer. Upon revisiting the question on Stack Overflow, the author has deleted the question, most likely due the responses received. At the last time of viewing, the question didn’t have an answer and was down voted multiple times. Use this example as the improper way to ask a question known as a not-so-smart question. 
 
 ## Conclusion
 
