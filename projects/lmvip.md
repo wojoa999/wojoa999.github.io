@@ -11,7 +11,7 @@ summary: "Studied how 3.5 GHz waves reflect off of surfaces."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/liquid.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/liquidmetal.jpg" class="img-thumbnail" >
 </div>
 The Liquid Metal VIP team was responsible for studing reflective intelligent surfaces(RIS). The RIS is used to reflect radio waves, in short terms. The idea behind the project is that radio was could be redirected around obsticles that would hinder your devices recieving a signal. This means that in dead zones a signal can be recieved. 
 
