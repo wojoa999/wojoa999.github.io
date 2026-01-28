@@ -16,7 +16,11 @@ labels:
 When using a free online question and answer service, such as Stack Overflow, it is important to understand the quality of the questions you are asking. There is such a way to ask questions that look interesting and appealing to draw in the answers. This style of questioning is known as asking smart questions. On the other hand, you could be asking on-so-smart questions without even realizing. In this discussion, we will explore the qualities of the smart questions and those not-so-smart questions, which is key for receiving the answer you are looking for.   
 
 ## A Proper Ask
+A great starting point to asking a smart question is to have completed a bit of research about the issues or questions that you may have. If you do come across the solution it most likely wasn’t a smart question to begin with. After exhausting all resources, such as searching the web, reading the manual, and asking a colleague. You may still find yourself without answers. Now would be a great time to draw up a smart question. 
 
+As you are writing your smart question you want to use a meaningful header that gives context into what you will be asking. A smart header will not just ask for help, but allow the hacker to gauge what kind of issue you are having. As you begin writing your smart question you want to be descriptive about the issues you are experiencing. This includes things like the problem, the environment, any research conducted, and the diagnostic steps. With inserting this information into your question you want to be precise and not put too much pointless information. Get straight to the point with detail. Keep in mind you want to explain the overall goal you wish to achieve. Grammar and punctuation may not seem that important when you are writing your question, but it shows that you care and are interested in learning. As you begin to post your question, you want to make sure you are asking the questions in the right places. For example, you don’t want to submit a basic beginner question into a feed that deals with more technician questions. 
+
+Keeping all of this in mind will help you receive the answers you may have. If there is a lack of thought going into the question, you may receive the same kind of response in your hackers response.  
 
 ```
 Q: How to manage Xcode signing and Entitlements for Open Source projects with contributors?
@@ -42,7 +46,13 @@ My Question: What is the standard workflow for open-source projects to allow con
 The example above provides the proper way to ask a smart question. The questioner provides a detailed explanation of what the project is, what is happening, the issues they are experiencing, and asks for help solving the problem. The questioner appears to have done their own bit of research by explaining that they have not found a best practice to solve the issue. As small as it may seem, the question has proper grammar and punctuation. Putting all of this information together, this shows that the questioner values and cares about receiving a proper and informative response. At the time of writing, the question has nine upvotes from the community,  but no responses yet.    
 
 ## No Response?
+It is much simpler to sit back and just ask any questions that you may have without doing your own research. More often than not, this leads to asking not-so-smart questions. Seemingly, if you put little thought into asking these kinds of questions you get the same response in return. Why should a hacker who is trying to help you care about your question when it doesn’t seem that you do either. 
 
+An easy way to get a sarcastic response when you ask very simple questions that could be solved by doing your own research. A common phrase that floats around the hackers with these kinds of questions involve “RTFM’’ or "STFW ". Receiving an answer like that means you poorly or didn’t conduct any research. From a hacker's perspective, you are just looking for an answer and not for help.
+
+ All the time not-so-smart questions get overlooked and never receive an answer. Improper writing may be a reason that a question of yours never gets answered. This shows that you put in very little effort to write your question. Asking for the answers rather than help is not a great way to get attention on your question. Nobody wants to do your work for you, they would rather help you to reach your goal. 
+
+Falling into asking not-so-smart questions may leave you with sarcastic answers or no answer at all. It is always better to try than put in no effort at all. 
 
 ```
 Q: How many way to implement Audio Streaming
