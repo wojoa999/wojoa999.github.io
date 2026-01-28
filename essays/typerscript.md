@@ -10,7 +10,7 @@ labels:
   - Typescript
 ---
 <div class="text-center p-4">
-  <img width="200px" src="../img/liquidmetal.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/code.jpg" class="img-thumbnail" >
 </div>
 
 ## Introduction into Typescript
