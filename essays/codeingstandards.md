@@ -12,7 +12,7 @@ labels:
   - ESLint
 ---
 <div class="text-center p-4">
-  <img width="200px" src="../img/code.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/codingstandards.jpg" class="img-thumbnail" >
 </div>
 
 ## Learning Coding Standards
