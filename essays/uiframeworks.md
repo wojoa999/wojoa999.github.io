@@ -24,6 +24,8 @@ Bootstrap is built with CSS allowing the user to style the webpage without needi
 
 <div class="text-center p-4">
   <img width="600px" src="../img/sample.png" class="img-thumbnail" >
+</div>
+<div class="text-center p-4">
   Fig. 1: The recreated Island Snow webpage.
 </div>
 
