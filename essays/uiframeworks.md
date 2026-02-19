@@ -23,12 +23,11 @@ The start of the UI Frameworks began with learning and implementing HTML and CSS
 Bootstrap is built with CSS allowing the user to style the webpage without needing a CSS file. While this was similar to CSS, the use of classes did provide a slight challenge for designing the page. Bootstrap uses prebuilt classes from CSS.  I found that Bootstrap has a tremendous amount of classes and the challenge was finding the correct one I wanted to use. Provided with more experience, I can see the potential of using Bootstrap rather than CSS to be beneficial by allowing the user to basically build an entire HTML without the need for CSS. This would allow all of the webpage to be stored within a single HTML, without the need for a CSS. 
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/html.jpg" class="img-thumbnail" >
+  <img width="600px" src="../img/sample.png" class="img-thumbnail" >
 </div>
 Fig. 1: The recreated Island Snow webpage.
 
 ```
-cpp
 <div class="navbar bg-light">
             <div class="container">
                 <ul class="nav">
@@ -56,14 +55,12 @@ cpp
 Sample code of how the NavBar was designed without the use of the CSS file. 
 
 ```
-cpp
 footer{
     background-color: #292929;
     color: white;
 }
 ```
 The CSS file showing a minimal amount of styling needed. This piece of code was the only code in the CSS file due to that fact that Bootstrap was able to handle the rest.  
-
 
 We were tasked to complete the Island Snow website while using mostly Bootstrap. A sample image of the webpage design will be placed below along with some code. I was able to effectively recreate the design using Bootstrap. 
 
