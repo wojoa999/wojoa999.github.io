@@ -25,7 +25,7 @@ Bootstrap is built with CSS allowing the user to style the webpage without needi
 We were tasked to complete the Island Snow website while using mostly Bootstrap. A sample image of the webpage design will be placed below along with some code. I was able to effectively and successfully able recreate the design using Bootstrap within the alloted amount of time. 
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/sample.png" class="img-thumbnail" >
+  <img width="800px" src="../img/sample.png" class="img-thumbnail" >
 </div>
 <div class="text-center p-4">
   Fig. 1: The recreated Island Snow webpage.
