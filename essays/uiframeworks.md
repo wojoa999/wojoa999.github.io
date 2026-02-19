@@ -11,7 +11,7 @@ labels:
   - Bootstrap 5
 ---
 <div class="text-center p-4">
-  <img width="200px" src="../img/html.jpg" class="img-thumbnail" >
+  <img width="300px" src="../img/html.jpg" class="img-thumbnail" >
 </div>
 
 ## My Experience with UI Frameworks
