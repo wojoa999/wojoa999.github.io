@@ -24,8 +24,8 @@ Bootstrap is built with CSS allowing the user to style the webpage without needi
 
 <div class="text-center p-4">
   <img width="600px" src="../img/sample.png" class="img-thumbnail" >
+  Fig. 1: The recreated Island Snow webpage.
 </div>
-Fig. 1: The recreated Island Snow webpage.
 
 ```
 <div class="navbar bg-light">
@@ -67,5 +67,5 @@ We were tasked to complete the Island Snow website while using mostly Bootstrap.
 In comparison, the webpage was built mostly with Bootstrap and the fine tuning was completed with CSS. Thus, relying mostly on Bootstrap rather than CSS. Increasing the efficiency that I could work at by not needing to change files to the CSS and able to the HTML.      
 
 
-Overall, with being new to the frameworks experience I did enjoy working with HTML, CSS, and Bootstrap 5. After the completion of a few experiences or WODs, I was able to get a grasp on using UI Frameworks. In my findings, the bulk of the website can be completed with Bootstrap's classes without the need for a CSS file. Using Bootstrap may reqiure more learing and experience, but its potential is much worth it. While there is still much to learn, I now feel more confident working with frameworks. I am looking forward to learning much more and how I can expand my knowledge in HTML, CSS, and Bootstrap 5. 
+Overall, with being new to the frameworks experience I did enjoy working with HTML, CSS, and Bootstrap 5. After the completion of a few experiences or WODs, I was able to get a grasp on using UI Frameworks. In my findings, the bulk of the website can be completed with Bootstrap's classes without the need for a CSS file. Using Bootstrap may require more learing and experience, but its potential is much worth it. While there is still much to learn, I now feel more confident working with frameworks. I am looking forward to learning much more and how I can expand my knowledge in HTML, CSS, and Bootstrap 5. 
 
