@@ -15,13 +15,14 @@ labels:
 </div>
 
 ## My Experience with UI Frameworks
-<hr />
 
 Over the past few weeks, I have become familiar with UI Frameworks using HTML, CSS, and Bootstrap 5. I am a complete newbie with all of these frameworks, so my outlook may differ with someone who has experience with the frameworks. For me it seemed like a whole new programming language that needed to be learned. The use of classes was a new experience that was easily picked up on. In this essay, I discuss my experiences in the usage of UI frameworks. 
 
 The start of the UI Frameworks began with learning and implementing HTML and CSS. As a beginner, this was an easier task to learn than Bootstrap. HTML would hold all of your classes and text, while CSS would be used for the styling of the page. I found that this method to be easier than its expansion with Bootstrap. Using CSS I could do a quick search for the type of styling that I was trying to achieve. The simplicity did come with some fallbacks. You would have to provide code to both the CSS and HTML in order to add text and style the text. Learning HTML and CSS was relatively straight forward and only had a slight learning curve.
 
 Bootstrap is built with CSS allowing the user to style the webpage without needing a CSS file. While this was similar to CSS, the use of classes did provide a slight challenge for designing the page. Bootstrap uses prebuilt classes from CSS.  I found that Bootstrap has a tremendous amount of classes and the challenge was finding the correct one I wanted to use. Provided with more experience, I can see the potential of using Bootstrap rather than CSS to be beneficial by allowing the user to basically build an entire HTML without the need for CSS. This would allow all of the webpage to be stored within a single HTML, without the need for a CSS. 
+
+We were tasked to complete the Island Snow website while using mostly Bootstrap. A sample image of the webpage design will be placed below along with some code. I was able to effectively and successfully able recreate the design using Bootstrap within the alloted amount of time. 
 
 <div class="text-center p-4">
   <img width="600px" src="../img/sample.png" class="img-thumbnail" >
@@ -64,8 +65,6 @@ footer{
 }
 ```
 The CSS file showing a minimal amount of styling needed. This piece of code was the only code in the CSS file due to that fact that Bootstrap was able to handle the rest.  
-
-We were tasked to complete the Island Snow website while using mostly Bootstrap. A sample image of the webpage design will be placed below along with some code. I was able to effectively recreate the design using Bootstrap. 
 
 In comparison, the webpage was built mostly with Bootstrap and the fine tuning was completed with CSS. Thus, relying mostly on Bootstrap rather than CSS. Increasing the efficiency that I could work at by not needing to change files to the CSS and able to the HTML.      
 
