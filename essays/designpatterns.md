@@ -100,5 +100,6 @@ The hand that rings the diner bell is the executive chef, but in terms of the ap
     Delete
 </button>
 ```
+The functionality of how a standard restaurant kitchen operates shows how design methods are implemented within a codebase. The structure, creation, and behavior play a massive role to ensure that all operations run smoothly. 
 
 
