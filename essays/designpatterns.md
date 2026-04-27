@@ -10,7 +10,7 @@ labels:
   - Software Architecture
   - Professional Development
 ---
-<img width="100px" class="rounded float-start pe-4" src="../img/download.jpg">
+<img width="500px" class="rounded d-block mx-auto" src="../img/kitchen.jpg">
 
 ## Cooking-Up Patterns
 Picture yourself working in a fine dining restaurant, you are tasked with ensuring that the kitchen runs smoothly. During the diner rush, you realize that the kitchen isn’t operating on simply following a recipe, but a system to keep the kitchen orderly. In software, these systems are considered design patterns. They are pre-designed templates that ensure the organization of logic and architecture. These patterns don't resemble the ingredients themselves, but establish the practices that should occur when pressure arises. Mastering the kitchen of a codebase, design patterns can be categorized into creating, structuring, and behavior. 
