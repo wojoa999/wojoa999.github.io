@@ -21,7 +21,7 @@ labels:
 
 	After the meal is completed and placed in the window the executive chef rings the order-up bell. This signals that the order is ready to be served, acting as the communication between the kitchen and the server. The server recognizes this "behavior" and knows that the order is ready to be served to the customer. All the servers are able to hear this bell, but the signal is acknowledged that the meal is ready to change states from the kitchen to the customer.   
 
-Restaurant Application
+## Restaurant Application
 
 	The appetizers, entrees, garnish, and deserts fall into the stations designed to organize the kitchen. These categories resemble the components implemented into the application that was designed. Much like the “kitchen”, the components act as the “stations” that help ensure that the application is running smoothly. Rather than storing all of the information into a single file, or staff, the components break the files up into smaller more focused organized categories to help split up the work to improve efficiency. Much like the kitchen, each component doesn't worry about each component's functions, but the end product will result in a fabulous meal.
 
