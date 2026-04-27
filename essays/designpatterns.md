@@ -79,26 +79,26 @@ The hand that rings the diner bell is the executive chef, but in terms of the ap
 
 ```cpp
 <a 
-      href={`/edit/${item.id}`} 
-      className="btn btn-sm btn-outline-primary"
-      style={{ fontSize: '0.75rem', padding: '4px 12px' }}
-      onClick={(e) => e.stopPropagation()}
-    > 
-      Edit
-    </a>
-    <button
-      className="btn btn-sm btn-outline-danger"
-      style={{ fontSize: '0.75rem', padding: '4px 12px' }}
-      onClick={async (e) => {
-        e.stopPropagation();
-        if (confirm(`Delete "${item.title}"?`)) {
-          await deleteTemplate(item.id);
-          window.location.href = '/list';
-        }
-      }}
-    >
-      Delete
-    </button>
+  href={`/edit/${item.id}`} 
+  className="btn btn-sm btn-outline-primary"
+  style={{ fontSize: '0.75rem', padding: '4px 12px' }}
+  onClick={(e) => e.stopPropagation()}
+  > 
+    Edit
+</a>
+<button
+  className="btn btn-sm btn-outline-danger"
+  style={{ fontSize: '0.75rem', padding: '4px 12px' }}
+  onClick={async (e) => {
+    e.stopPropagation();
+    if (confirm(`Delete "${item.title}"?`)) {
+      await deleteTemplate(item.id);
+      window.location.href = '/list';
+    }
+  }}
+>
+    Delete
+</button>
 ```
 
 
