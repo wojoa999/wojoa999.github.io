@@ -24,7 +24,7 @@ After the meal is completed and placed in the window the executive chef rings th
 ## Restaurant Application
 The appetizers, entrees, garnish, and deserts fall into the stations designed to organize the kitchen. These categories resemble the components implemented into the application that was designed. Much like the “kitchen”, the components act as the “stations” that help ensure that the application is running smoothly. Rather than storing all of the information into a single file, or staff, the components break the files up into smaller more focused organized categories to help split up the work to improve efficiency. Much like the kitchen, each component doesn't worry about each component's functions, but the end product will result in a fabulous meal.
 
-```
+```cpp
 <Navbar expand="lg" style={{ backgroundColor: '#024731' }} variant="dark">
       <Container>
         <Navbar.Brand href="/">UH ITS Email Helper</Navbar.Brand>
@@ -52,7 +52,7 @@ The appetizers, entrees, garnish, and deserts fall into the stations designed to
 
 Behind closed doors of the kitchen, the database actions are correlated to the back of the house that customers do not witness. In this case, the components utilizing the add, edit, and remove functions don't see what is happening behind the closed door. The components act as the customer and only see what is presented upfront. As a result the components only see the meal that is presented upon them. The complex database information is hidden from the components to present a clean and formatted solution. Allowing the components to see what is needed to be seen and when it should be seen. By keeping the messiness away from the customer, the dining room is able to focus on the meal that is presented. 
 
-```
+```cpp
 /**
  * Creates a new contact in the database.
  * @param template, an object with the following properties: title, template, category, author, tags, used.
@@ -77,7 +77,7 @@ export async function addTemplate(template: { title: string; template: string; c
 
 The hand that rings the diner bell is the executive chef, but in terms of the application the admin withholds this power. In the digital kitchen, the admin has the ability to ring the bell on the templates that users are allied to use. If the email template presented is not up to par, the admin has the ability to reserve or trash the meal. This ensures that every meal in the application is up to standards. To ensure that proper etiquette is in place, the admin has the ability to fire employees from the job. Ultimately, giving the executive chef power to the admin users of the applications. To ensure the accuracy of dishes and user actions the admin has the final behavioral conclusion to what is sent out of the kitchen.  
 
-```
+```cpp
 <a 
       href={`/edit/${item.id}`} 
       className="btn btn-sm btn-outline-primary"
