@@ -81,7 +81,7 @@ The hand that rings the dinner bell is the executive chef, but in terms of the a
 <a 
   href={`/edit/${item.id}`} 
   className="btn btn-sm btn-outline-primary"
-  style={ fontSize: '0.75rem', padding: '4px 12px' }
+  style={{ fontSize: '0.75rem', padding: '4px 12px' }}
   onClick={(e) => e.stopPropagation()}
   > 
     Edit
@@ -102,5 +102,6 @@ The hand that rings the dinner bell is the executive chef, but in terms of the a
 ```
 The functionality of how a standard restaurant kitchen operates shows how design methods are implemented within a codebase. The structure, creation, and behavior play a massive role to ensure that all operations run smoothly. 
 
-The use of AI was implemented to draw a connection to how each design pattern appear in a restaurant kitchen. AI was not used to write, but as a guide to compare the functionality of a codebase to a kitchen. Spelling and grammar was tested through AI to ensure that there were no errors. 
+***
+The use of AI was implemented to draw a connection to how each design pattern appears in a restaurant kitchen. AI was not used to write, but as a guide to compare the functionality of a codebase to a kitchen. Spelling and grammar was tested through AI to ensure that there were no errors. 
 

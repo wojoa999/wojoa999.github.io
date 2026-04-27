@@ -52,5 +52,5 @@ Upon completion of the basic application functions, more advanced features for t
 <li>Add the functionality of how long the textbook has been on the market.</li>  
 </ul>
 
-AI was used to help brainstorm for poject ideas that could potentially benefit college students. 
+AI was used to help brainstorm for project ideas that could potentially benefit college students. 
 
