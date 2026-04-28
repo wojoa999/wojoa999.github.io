@@ -1,99 +1,71 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "An Intelligent Response"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2026-01-26
+published: true
 labels:
   - Questions
   - Answers
-  - StackOverflow
 ---
+<img width="250px" class="rounded float-start pe-4" src="../img/question.jpg">
+<br><br><br><br><br><br><br><br>
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+## Introuction
+When using a free online question and answer service, such as Stack Overflow, it is important to understand the quality of the questions you are asking. There is such a way to ask questions that look interesting and appealing to draw in the answers. This style of questioning is known as asking smart questions. On the other hand, you could be asking on-so-smart questions without even realizing. In this discussion, we will explore the qualities of the smart questions and those not-so-smart questions, which is key for receiving the answer you are looking for.   
 
-## Is there such thing as a stupid question?
+## A Proper Ask
+A great starting point to asking a smart question is to have completed a bit of research about the issues or questions that you may have. If you do come across the solution it most likely wasn’t a smart question to begin with. After exhausting all resources, such as searching the web, reading the manual, and asking a colleague. You may still find yourself without answers. Now would be a great time to draw up a smart question. 
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+As you are writing your smart question you want to use a meaningful header that gives context into what you will be asking. A smart header will not just ask for help, but allow the hacker to gauge what kind of issue you are having. As you begin writing your smart question you want to be descriptive about the issues you are experiencing. This includes things like the problem, the environment, any research conducted, and the diagnostic steps. With inserting this information into your question you want to be precise and not put too much pointless information. Get straight to the point with detail. Keep in mind you want to explain the overall goal you wish to achieve. Grammar and punctuation may not seem that important when you are writing your question, but it shows that you care and are interested in learning. As you begin to post your question, you want to make sure you are asking the questions in the right places. For example, you don’t want to submit a basic beginner question into a feed that deals with more technician questions. 
 
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+Keeping all of this in mind will help you receive the answers you may have. If there is a lack of thought going into the question, you may receive the same kind of response in your hackers response.  
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Q: How to manage Xcode signing and Entitlements for Open Source projects with contributors?
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+I am maintaining an open-source macOS/iOS app that is also published on the App Store. I am struggling to find a "best practice" for handling code signing that doesn't block external contributors.
 
-Like this:
+Currently, my configuration causes immediate build failures for anyone who clones the repo:
+    Hardcoded Team ID: In project.pbxproj, DEVELOPMENT_TEAM is set to my personal Team ID.
+    Entitlements: The app requires a Keychain Access Group to store user credentials. This causes a provisioning profile mismatch for contributors because the App ID prefix doesn't match their local environment.
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+The Problem: When a new contributor clones the project and tries to build, they receive the error:
+
+    "Automatic signing failed: [App Name] requires a development team. Select a development team in the Signing & Capabilities editor."
+
+If they select their own team, it modifies the project.pbxproj file, which they then have to avoid committing. If they don't, they have to manually strip out the Entitlements just to run the app on a simulator or device.
+
+What I've considered:
+    Adding *.pbxproj to .gitignore (Not feasible as project structure changes).
+    Using an .xcconfig file for the DEVELOPMENT_TEAM ID.
+
+My Question: What is the standard workflow for open-source projects to allow contributors to build and run the app locally without manually modifying the project's signing configuration or stripping out necessary Entitlements? Is there a way to "gracefully degrade" signing requirements for non-maintainers?
+```
+The example above provides the proper way to ask a smart question. The questioner provides a detailed explanation of what the project is, what is happening, the issues they are experiencing, and asks for help solving the problem. The questioner appears to have done their own bit of research by explaining that they have not found a best practice to solve the issue. As small as it may seem, the question has proper grammar and punctuation. Putting all of this information together, this shows that the questioner values and cares about receiving a proper and informative response. At the time of writing, the question has nine upvotes from the community,  but no responses yet.    
+
+## No Response?
+It is much simpler to sit back and just ask any questions that you may have without doing your own research. More often than not, this leads to asking not-so-smart questions. Seemingly, if you put little thought into asking these kinds of questions you get the same response in return. Why should a hacker who is trying to help you care about your question when it doesn’t seem that you do either. 
+
+An easy way to get a sarcastic response when you ask very simple questions that could be solved by doing your own research. A common phrase that floats around the hackers with these kinds of questions involve “RTFM’’ or "STFW ". Receiving an answer like that means you poorly or didn’t conduct any research. From a hacker's perspective, you are just looking for an answer and not for help.
+
+ All the time not-so-smart questions get overlooked and never receive an answer. Improper writing may be a reason that a question of yours never gets answered. This shows that you put in very little effort to write your question. Asking for the answers rather than help is not a great way to get attention on your question. Nobody wants to do your work for you, they would rather help you to reach your goal. 
+
+Falling into asking not-so-smart questions may leave you with sarcastic answers or no answer at all. It is always better to try than put in no effort at all. 
 
 ```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+Q: How many way to implement Audio Streaming
 
-## The foolproof way to get ignored.
+I'm progressing web service project that just for portfolio, not for release service. and the project is "Music platform" like spotify, apple music and soundcloud(soundcoud is most similar service that on my mind)
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+So I have to implements streaming function. But now I know just only way to implement streaming function is HLS streaming
 
+Then I want to know how many way to implement streaming function. Can you knowing me all of the way to implement audio streaming function and each way's pros and cons please
+
+I have an environment : EC2 (I can use 2 instance), S3, Docker, Spring Boot, Java, RDS(MySQL)
 ```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+In the example from Stack Overflow above, this is a great example of a no-so-smart question. The question was designed with very little thought and has extremely poor grammar. This question is a great example of what not to ask. You can tell the questioner has not conducted the proper research and provides insightful information, they are just looking for the answer. Upon revisiting the question on Stack Overflow, the author has deleted the question, most likely due the responses received. At the last time of viewing, the question didn’t have an answer and was down voted multiple times. Use this example as the improper way to ask a question known as a not-so-smart question. 
 
 ## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Overall, there are multiple ways to go about asking a question. If you want to ensure you receive an answer to your questions it is important to prompt and ask your questions with intelligence. Otherwise, you may not receive a response that you want to receive. Be clear and concise about what you are asking. Always remember that smart questions will get answered with smart answers. So, take the time to ask a question to help you find the solution and don’t just try and receive an answer. 
