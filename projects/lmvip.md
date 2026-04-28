@@ -4,7 +4,7 @@ type: project
 image: img/radio.png
 title: "Liquid Metal VIP"
 date: 2024
-published: true
+published: false
 labels:
   - Python
 summary: "Studied how 3.5 GHz waves reflect off of surfaces."
