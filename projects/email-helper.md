@@ -6,9 +6,9 @@ title: "UH ITS Email Helper"
 date: 2026
 published: false
 labels:
-  - Grafana
-  - Tableau
-  - Python
+  - Nextjs
+  - Vercel
+  - pgAdmin
 summary: ""
 ---
 

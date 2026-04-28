@@ -6,7 +6,7 @@
     "email": "ajw9@hawaii.edu",
     "phone": "(443) 253-1909",
     "website": "https://wojoa999.github.io",
-    "summary": "I am studying in Computer Engineering for a B.S. in Computer and Electrical Engineering at the University of Hawaii at Moana. My expected graduation is Fall 2026.",
+    "summary": "I am studying Computer Engineering for a B.S. in Computer and Electrical Engineering at the University of Hawaii at Manoa. My expected graduation is Fall 2026.",
     "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "wojoa999", "url": "http://github.com/wojoa999" },
@@ -15,14 +15,14 @@
   },
   "interests": [
     { "name": "Signal Processing" },
-    { "name": "Military Industrial" },
-    { "name": "Drones and Satellites" },
+    { "name": "Defense Technology" },
+    { "name": "National Security" },
     { "name": "Computer Hardware" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "JavaScript", "Python", "HTML/CSS", "React" ]
     },
     {
       "name": "Toolsets/OS",
@@ -32,10 +32,10 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer and Electrical Engineering (expected Fall 2026)",
+      "area": "Computer and Electrical Engineering",
       "studyType": "B.S.",
       "startDate": "2020-08-01",
-      "endDate": "Present",
+      "endDate": "Fall 2026 (Expected)",
       "courses": [
       ]
     }
@@ -49,20 +49,20 @@
       "endDate": "Present",
       "summary": "Production of seed corn.",
       "highlights": [
-        "Supply irrigation and fertigation to crops",
+        "Supply irrigation and fertigation to crops.",
         "Fix and maintain main lines and risers."
       ]
     },
     {
-      "company": "Buffalo Wild Winngs",
+      "company": "Buffalo Wild Wings",
       "position": "Heart of House",
       "website": "",
       "startDate": "2023-10-01",
       "endDate": "2025-01-13",
       "summary": "",
       "highlights": [
-        "Completed orders quicky, consistently, and with high quality.",
-        "Used teamwork conquer an overwhelming amount of orders."
+        "Completed orders quickly, consistently, and with high quality.",
+        "Used teamwork to conquer an overwhelming amount of orders."
       ]
     }
   ],
@@ -73,19 +73,24 @@
       "position": "Caretaker",
       "startDate": "2021-10-01",
       "endDate": "2022-12-01",
-      "summary": "Assisted with providing care fo animals at the shelter",
+      "summary": "Assisted with providing care for animals at the shelter",
       "highlights": [
-        "Educated about how to interact with different behaviors in animals.",
-        "Eager to learn and develop new skills"
+        "Trained on how to interact with different behaviors in animals.",
+        "Maintained an eager attitude to learn and develop new skills."
       ]
     }
   ],
   "awards": [
     {
+      "title": "A.S. in Natural Sciences",
+      "date": "2022",
+      "awarder": "Leeward Community College"
+    },
+    {
       "title": "Phi Theta Kappa Honor Society",
       "date": "2022-Present",
       "awarder": "Phi Theta Kappa",
-      "summary": "Honor society offers membership to students who have completes 12 credits and have a cumulative GPA of 3.5 or higher."
+      "summary": "Honor society offers membership to students who have completed 12 credits and have a cumulative GPA of 3.5 or higher."
     }
   ],
   "references": [
