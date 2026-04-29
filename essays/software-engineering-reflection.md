@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Software Engineering"
 # All dates must be YYYY-MM-DD format!
-date: 2026-04-27
+date: 2026-04-29
 published: true 
 labels:
   - Software Engineering
