@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/email.jng
+image: img/email.png
 title: "UH ITS Email Helper"
 date: 2026
 published: true
