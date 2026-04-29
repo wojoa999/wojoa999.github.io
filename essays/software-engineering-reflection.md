@@ -12,6 +12,9 @@ labels:
   - Functional Programming
 ---
 <img width="200px" class="rounded d-block mx-auto" src="../img/computer.jpg">
+<img width="200px" class="rounded d-block mx-auto" src="../img/computer.jpg">
+<img width="200px" class="rounded d-block mx-auto" src="../img/computer.jpg">
+
 
 ## Introduction
 Software engineering has much more to offer than just coding; it is a discipline that utilizes engineering solutions to develop software.  While enhancing my software development skills, I learned about valuable topics and material related to software engineering. I practiced developing my skills through athletic programming, which focuses on high repetitions to quickly produce quality results under pressure. This practice covered material such as coding standards and functional programming. I practiced my software engineering skills using web application development to explore important computer engineering topics. By drawing connections to other applications of software engineering, I gained a deeper understanding of the purpose, demonstrating that these core principles are universal in software applications. The following sections will explore the knowledge I gained about software engineering and the meaning beyond web application design.
