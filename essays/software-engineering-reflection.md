@@ -24,7 +24,13 @@ Software engineering has much more to offer than just coding; it is a discipline
 ## Coding Standards
 Coding standards are used in any programming language that appears in any software engineering and computer science work. The understanding of how your work should be structured is a common practice that any programmer should possess. Coding standards are the blueprint of how code should be structured so it is readable, maintainable, and clean. The standard is imperative to all programmers due to its ability to allow anyone to read any type of code and understand the code. In order to implement these standards, I utilized ESLint, a code analysis tool that implements coding standard enforcement, best practices, and style. The uniformity ensures that, while working in a team, the codebase remains understandable. While I practiced my skills in web application development, coding standards will appear and be a common practice within any form of coding. The standards for each application may differ, but overall will serve the same purpose. Testing out my skills in a team project, the coding standards became vital. This uniformly allowed the modules of the project to merge seamlessly. Coding standards are the blueprint for writing code to allow programmers to design projects in groups, updating code, and reviewing all code not only applied to software engineering, but all disciplines. In practice, I used the linter, ESLint, in which the style in web application design is shown below:
 ```tsx
-
+/* Renders a single note in the List Notes table. See list/page.tsx. */
+const NoteItem = ({ note }: { note: Note }  ) => (
+  <ListGroup.Item>
+    <p className="fw-lighter">{note.createdAt.toLocaleDateString('en-US')}</p>
+    <p>{note.note}</p>
+  </ListGroup.Item>
+);
 ```
 
 ## Functional Programming
