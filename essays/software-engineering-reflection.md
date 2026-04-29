@@ -11,9 +11,11 @@ labels:
   - Coding Standards
   - Functional Programming
 ---
-<img width="200px" class="rounded d-block mx-auto" src="../img/computer.jpg">
-<img width="200px" class="rounded d-block mx-auto" src="../img/computer.jpg">
-<img width="200px" class="rounded d-block mx-auto" src="../img/computer.jpg">
+<div class="d-flex justify-content-center gap-3">
+  <img width="200px" class="rounded" src="../img/computer.jpg">
+  <img width="200px" class="rounded" src="../img/computer.jpg">
+  <img width="200px" class="rounded" src="../img/computer.jpg">
+</div>
 
 
 ## Introduction
