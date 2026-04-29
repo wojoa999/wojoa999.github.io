@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Software Engineering"
+title: "A Professional Codebase"
 # All dates must be YYYY-MM-DD format!
 date: 2026-04-29
 published: true 
