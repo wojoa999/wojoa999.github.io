@@ -18,13 +18,21 @@ summary: "Final project for software engineering (ICS 314) course to design a we
 </div>
 
 ## Project Overview
-The application was designed to help the University of Hawaii's information technology service (ITS) department. Since student employees are limited to working twenty hours a week, the application was implemented to improve the efficency of student workers. The UH UTS Email Helper application is a tool used by the student workers that features email templates for different issues the ITS department recieves.    
+The application was designed to help the University of Hawaii's information technology service (ITS) department. Since student employees are limited to working a twenty-hour work week, the application was implemented to improve the efficiency of student workers. The UH UTS Email Helper application is a tool used by the student workers that features email templates for different issues the ITS department receives. The database provides users the ability to use and post their own templates for others to use. Due to the similarity in response emails, UH workers now have the ability to store and reuse templates to increase their productivity within their weekly hourly minutes.   
+
 
 ## Technical Implementation
 
 
+
+
 ## My Contributions
-My contributions to the project involved page designs, database updates, and the admin functions. The pages designed in the project included the admin, edit, and recently used pages. The edit page allows the user or admin to edit a template that was added to the application. Admin functions and page include all of the users and templates. The admins have the ability to edit and delete templates. If users are inappropriate, the admins have the ability to delete users. Once a user copies a template, the template would appear on the users recently used templates page. The database includes the information needed for a templates and users. A function implemented was the abiity to track the number of times a template was used, which was tied to the copy button on each template. While a template could be used more than once by a user, only the first time the user copied the template would increase the used counter. This was to remove the ablity to spam the copy button on a template to incerase the number of times it was used.    
+My primary contributions to the project focused on UI design, database management, and administrative functionality.
+
+* **Page Design:** I developed the Admin, Edit, and Recently Used pages on the application. The Edit page provides users or administrators to modify templates. Users may only edit their own posted templates, while administrators have access to all templates.
+* **Administrative Features:** I implemented the functions that grant administrators oversight of the application. Admins have the power to edit or delete templates and can delete users if actions violate the application policies. 
+* **User Experience:** I developed the Recently Used feature, which tracks and displays templates that a user has previously copied. This allows users to maintain the templates for quick access for common responses. 
+* **Database Logic:** I managed the database for both the templates and the users profile. A key function I implemented was a usage tracker to count how many times a template was used, which is tied to the "Copy" button. To promote an accurate usage tracker, the increments are applied to the first time a user copies a template. This was applied to ensure the usage was accurate and not inflated due to spam coping a template.     
 
 ***
 https://uh-its-email-helper.vercel.app/
