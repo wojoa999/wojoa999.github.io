@@ -22,8 +22,12 @@ The application was designed to help the University of Hawaii's Information Tech
 
 
 ## Technical Implementation
+The application is built on full-stack architecture covering the front-end user experience and back-end logic. 
 
-
+* **Framework:** The application is built with Next.js, which allowed management in a single codebase.
+* **Deployment:** The application is hosted on Vercel, which handles the deployment process automatically. 
+* **Database Management:** The database is handled by PostgreSQL, allowing the storage of users and email templates to be organized. 
+* **Administrative Tool:** pgAdmin is utilized as the tool to interact with the database, allowing for quick access to check, add, and edit the tables.    
 
 
 ## My Contributions
