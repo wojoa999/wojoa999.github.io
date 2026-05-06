@@ -4,7 +4,7 @@ type: essay
 title: "Final Project Proposal"
 # All dates must be YYYY-MM-DD format!
 date: 2026-03-24
-published: true
+published: false
 labels:
   - Software Engineering
   - Project Brainstorming
