@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/rain.jpg
 title: "Smart Campus Energy Lab"
-date: 2026
+date: 2025
 published: true
 labels:
   - Grafana
