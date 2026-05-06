@@ -29,4 +29,9 @@ For this project, I was assigned to the Dashboard Team whose responsibility was 
 
 
 ## My Contributions
-My contributions to the project involved designing a real-time dashboard and a historical dashboard to display the weather data that is collected around campus. I designed the real-time dashboard in Grafana, which pulls the data straight from the database. I designed the historical dashboard on Python due to displaying the past five years of weather data. I gained the knowledge on how to proficiently use multiple data visualization tools to effectively show weather data and the importance of data visualization.
+My contributions focused on the design of both real-time and historical dashboards to visualize campus weather data.
+
+* **Real-Time Visualizations:** I developed a dashboard in Grafana that pulls live data from the database for real-time interactions. The dashboard was utilized as a tool to determine if all the sensors and communications are correctly functioning. 
+* **Historical Analysis:** I built a Python dashboard to handle and display the past five years of weather data, allowing the team to analyze trends on the campus. 
+
+Through this experience, I gained an understanding of transforming large datasets into dashboards utilizing multiple data visualization tools. 
