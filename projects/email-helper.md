@@ -14,7 +14,7 @@ summary: "Final project for software engineering (ICS 314) course to design a we
 
 <div class="text-center p-4">
   <img width="600px" src="../img/landing-page.png" class="img-thumbnail" >
-  <img width="600px" src="../img/landing-page.png" class="img-thumbnail" >
+  <img width="600px" src="../img/homepage.png" class="img-thumbnail" >
 </div>
 
 ## Project Overview
