@@ -40,4 +40,5 @@ My primary contributions to the project focused on UI design, database managemen
 
 ***
 [View Project Site](https://uh-its-email-helper.vercel.app/)
+
 [View GitHub](https://github.com/ICS314-Group-4)
