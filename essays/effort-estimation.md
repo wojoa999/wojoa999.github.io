@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Lessons in Software Effort Estimation"
 # All dates must be YYYY-MM-DD format!
-date: 2026-04-05
+date: 2026-05-05
 published: true
 labels:
   - Project Management
