@@ -4,7 +4,7 @@ type: essay
 title: "Typescript: A New Approach"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-25
-published: true
+published: false
 labels:
   - Javascript
   - Typescript

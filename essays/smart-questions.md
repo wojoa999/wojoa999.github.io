@@ -4,7 +4,7 @@ type: essay
 title: "An Intelligent Response"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-26
-published: true
+published: false
 labels:
   - Questions
   - Answers
