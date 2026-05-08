@@ -14,7 +14,7 @@ summary: "Leveraging data visualization to transform raw weather data into actio
 
 <div class="text-center p-4">
   <img width="600px" src="../img/dash1.png" class="img-thumbnail" >
-  <img width="600px" src="../img/dash2.png" class="img-thumbnail" >
+  <img width="600px" src="../img/noaa.png" class="img-thumbnail" >
 </div>
 
 ## Project Overview
