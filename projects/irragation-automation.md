@@ -13,7 +13,7 @@ summary: "Developing a remote-access SCADA system to automate crop irrigation, m
 ---
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/banner.jpg" class="img-thumbnail" >
+  <img width="300px" src="../img/banner.jpg" class="img-thumbnail" >
   <img width="400px" src="../img/software.png" class="img-thumbnail" >
 </div>
 
