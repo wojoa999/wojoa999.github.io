@@ -16,13 +16,13 @@ labels:
 
 ## My Experience with UI Frameworks
 
-Over the past few weeks, I have become familiar with UI Frameworks using HTML, CSS, and Bootstrap 5. I am a complete newbie with all of these frameworks, so my outlook may differ with someone who has experience with the frameworks. For me it seemed like a whole new programming language that needed to be learned. The use of classes was a new experience that was easily picked up on. In this essay, I discuss my experiences in the usage of UI frameworks. 
+Over the past few weeks, I have become familiar with UI frameworks using HTML, CSS, and Bootstrap 5. As a complete newcomer to these tools, my outlook may differ from someone with more experience. To me, it felt like learning an entirely new programming language. However, the use of classes was a new concept that I picked up on quickly. In this essay, I discuss my experiences using these UI frameworks.
 
-My journey began with learning and implementing HTML and CSS. As a beginner, this was an easier task to learn than Bootstrap. HTML would hold all of your classes and text, while CSS would be used for the styling of the page. I found that this method to be easier than its expansion with Bootstrap. Using CSS I could do a quick search for the type of styling that I was trying to achieve. The simplicity did come with some fallbacks. You would have to provide code to both the CSS and HTML in order to add text and style the text. Learning HTML and CSS was relatively straight forward and only had a slight learning curve.
+My journey began with learning and implementing HTML and CSS. As a beginner, I found this easier than learning Bootstrap. HTML holds the structure and text, while CSS handles the styling. I initially found this method more intuitive than the expanded workflow of Bootstrap. With CSS, I could simply search for the specific styling I wanted to achieve. However, this simplicity had its drawbacks; I had to update both the CSS and HTML files constantly to add and style text. Overall, learning HTML and CSS was relatively straightforward with only a slight learning curve.
 
-Bootstrap is built with CSS allowing the user to style the webpage without needing a CSS file. While this was similar to CSS, the use of classes did provide a slight challenge for designing the page. Bootstrap uses prebuilt classes from CSS.  I found that Bootstrap has a tremendous amount of classes and the challenge was finding the correct one I wanted to use. Provided with more experience, I can see the potential of using Bootstrap rather than CSS to be beneficial by allowing the user to basically build an entire HTML without the need for custom CSS. This would allow all of the webpage to be stored within a single HTML, without the need for a seperate CSS file. 
+Bootstrap is built on CSS, allowing users to style a webpage without needing a separate stylesheet. While the logic is similar to CSS, the sheer volume of classes provided a slight challenge during the design phase. Bootstrap uses prebuilt classes, and my main struggle was finding the specific class I needed among so many options. With more experience, I can see how Bootstrap is more beneficial than custom CSS—it allows a developer to build an entire page within a single HTML file.
 
-Applying these concepts, I recreated the Island Snow website while using mostly Bootstrap. A sample image of the webpage design will be placed below along with some code. I was able to effectively and successfully recreate the design using Bootstrap, efficiently achieving high quality results. 
+Applying these concepts, I recreated the Island Snow website using mostly Bootstrap. A sample image of the design and the corresponding code are provided below. I was able to effectively recreate the design, achieving high-quality results efficiently.
 
 <div class="text-center p-4">
   <img width="800px" src="../img/sample.png" class="img-thumbnail" >
@@ -66,8 +66,7 @@ footer{
 ```
 The CSS file showing a minimal amount of styling needed. This piece of code was the only code in the CSS file due to that fact that Bootstrap was able to handle the rest.  
 
-In comparison, the webpage was built mostly with Bootstrap and the fine tuning was completed with CSS. Thus, relying mostly on Bootstrap rather than CSS. This approach increased the efficiency that I could produce work at by not needing to change files to the CSS and staying within the HTML.      
+In comparison, the webpage was built primarily with Bootstrap, while fine-tuning was completed with CSS. This approach increased my efficiency because I didn't need to switch between files constantly.
 
-
-Overall, with being new to the framework experience I did enjoy working with HTML, CSS, and Bootstrap 5. After the completion of a few experiences or WODs, I was able to get a grasp on using UI Frameworks. In my findings, the bulk of the website can be completed with Bootstrap's classes without the need for a CSS file. Using Bootstrap may require more learning and experience, but its potential is well worth the effort. While there is still much to learn, I now feel more confident working with frameworks. I am looking forward to learning much more and how I can expand my knowledge in HTML, CSS, and Bootstrap 5. 
+Overall, I enjoyed my first experience with UI frameworks. After completing a few exercises and "WODs" (Workouts of the Day), I gained a solid grasp of how they function. I found that the bulk of a website can be completed using Bootstrap classes alone. While it requires more initial learning, the potential for speed and consistency is well worth the effort. I feel much more confident now and look forward to expanding my knowledge of HTML, CSS, and Bootstrap.
 
